@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1043949684742-4g1hj1fr29rgkivg659uemin57mbtejj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1043949684742-4g1hj1fr29rgkivg659uemin57mbtejj</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD9yQn7YEuCXXnfnrcWTRcrNFwTGwnIhEU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1043949684742</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>fatih.FilmFinder</string>
+	<key>PROJECT_ID</key>
+	<string>filmfinder-c679b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>filmfinder-c679b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1043949684742:ios:7f9d534b3735a8e1c81b87</string>
+</dict>
+</plist>
