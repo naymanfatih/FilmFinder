@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D3DF1B72A974D9A00A193D0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3D3DF1B62A974D9A00A193D0 /* Alamofire */; };
 		3D67328A2A9744B10037841F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6732892A9744B10037841F /* AppDelegate.swift */; };
 		3D67328C2A9744B10037841F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D67328B2A9744B10037841F /* SceneDelegate.swift */; };
 		3D67328E2A9744B10037841F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D67328D2A9744B10037841F /* ViewController.swift */; };
@@ -66,6 +67,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D6732C12A9746690037841F /* FirebaseAnalyticsSwift in Frameworks */,
+				3D3DF1B72A974D9A00A193D0 /* Alamofire in Frameworks */,
 				3D6732BD2A9746690037841F /* FirebaseAnalytics in Frameworks */,
 				3D6732C52A9746690037841F /* FirebaseCrashlytics in Frameworks */,
 				3D6732C92A9746690037841F /* FirebaseRemoteConfigSwift in Frameworks */,
@@ -168,6 +170,7 @@
 				3D6732C42A9746690037841F /* FirebaseCrashlytics */,
 				3D6732C62A9746690037841F /* FirebaseRemoteConfig */,
 				3D6732C82A9746690037841F /* FirebaseRemoteConfigSwift */,
+				3D3DF1B62A974D9A00A193D0 /* Alamofire */,
 			);
 			productName = FilmFinder;
 			productReference = 3D6732862A9744B10037841F /* FilmFinder.app */;
@@ -243,6 +246,7 @@
 			mainGroup = 3D67327D2A9744B10037841F;
 			packageReferences = (
 				3D6732BB2A9746690037841F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				3D3DF1B52A974D9A00A193D0 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 3D6732872A9744B10037841F /* Products */;
 			projectDirPath = "";
@@ -634,6 +638,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		3D3DF1B52A974D9A00A193D0 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 		3D6732BB2A9746690037841F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -645,6 +657,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		3D3DF1B62A974D9A00A193D0 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D3DF1B52A974D9A00A193D0 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
 		3D6732BC2A9746690037841F /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 3D6732BB2A9746690037841F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
