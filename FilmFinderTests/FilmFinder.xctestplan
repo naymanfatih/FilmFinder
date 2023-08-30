@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "1C043ABF-F79A-4B26-AD24-B2EE0945C820",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:FilmFinder.xcodeproj",
+          "identifier" : "3D6732852A9744B10037841F",
+          "name" : "FilmFinder"
+        }
+      ]
+    },
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:FilmFinder.xcodeproj",
+      "identifier" : "3D6732852A9744B10037841F",
+      "name" : "FilmFinder"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:FilmFinder.xcodeproj",
+        "identifier" : "3D67329B2A9744B20037841F",
+        "name" : "FilmFinderTests"
+      }
+    }
+  ],
+  "version" : 1
+}
