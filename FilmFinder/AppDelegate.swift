@@ -42,7 +42,7 @@ import UIKit
 extension AppDelegate {
     private func registerRemoteNotifications(_ application: UIApplication) {
         let center = UNUserNotificationCenter.current()
-        center.requestAuthorization(options: [.alert, .sound, .badge]) { granted, error in
+        center.requestAuthorization(options: [.alert, .sound, .badge]) { granted, _ in
             if granted {
                 DispatchQueue.main.async {
                     application.registerForRemoteNotifications()
