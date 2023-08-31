@@ -30,9 +30,9 @@ FilmFinder is a movie search app designed for movie enthusiasts. Quickly find es
 - [Alamofire](https://github.com/Alamofire/Alamofire)
 - [Firebase](https://firebase.google.com)
 - [HandyViewController](https://github.com/mobven/HandyViewController)
-- [Lottie](https://github.com/lottie-react-native/lottie-ios)
+- [Lottie](https://github.com/airbnb/lottie-ios)
 - [SDWebImage](https://github.com/SDWebImage/SDWebImage)
 
 ## 📞 Contact
 
-For any questions, suggestions, or feedback, you can reach out to me at [nayman.fatih@gmail.com](mailto:yourname@email.com).
+For any questions, suggestions, or feedback, you can reach out to me at [nayman.fatih@gmail.com](mailto:nayman.fatih@gmail.com).
